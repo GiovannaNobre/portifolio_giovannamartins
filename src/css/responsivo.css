@@ -1,0 +1,141 @@
+@media(max-width: 768px){
+
+    .cabecalho{
+        padding: 10px;
+    }
+
+    .home{
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 20px;  /* Ajusta o padding para telas menores */
+        /* margin: 50px 0; */
+        gap: 30px;
+        min-height: calc(100vh - 100px);  /* Ajusta a altura mínima */
+    }
+
+    .home .informacoes{
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 0 10px;  /* Ajusta o padding */
+    }
+
+    .home .informacoes h1 {
+        font-size: 20px;  /* Reduz o tamanho da fonte */
+    }
+
+    .skills {
+        padding: 10px 0 50px;  /* Ajusta o padding para telas menores */
+    }
+
+    .skills .titulo {
+        padding: 60px 0;  /* Ajusta o padding para o título */
+        font-size: 35px;  /* Reduz o tamanho da fonte */
+    }
+
+    .skills .cards {
+        gap: 50px;  /* Reduz o espaço entre os ícones */
+    }
+
+    .skills .cards i {
+        width: 80px;  /* Reduz a largura do ícone */
+        font-size: 60px;  /* Reduz o tamanho da fonte do ícone */
+    }
+
+    .certificados {
+        padding: 10px 0 50px;  /* Ajusta o padding para telas menores */
+    }
+
+    .certificados .titulo {
+        padding: 60px 0;  /* Ajusta o padding para o título */
+        font-size: 35px;  /* Reduz o tamanho da fonte */
+    }
+
+    .projetos .container-projetos{
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 480px){
+    .cabecalho{
+        flex-direction:row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .cabecalho .logo {
+        width: 60px;
+        height: 60px;
+        line-height: 50px;
+    }
+
+    .cabecalho .menu {
+        flex-direction: row;
+        flex-wrap: nowrap; /* Garante que os itens não quebrem linha */
+        gap: 5px; /* Ajusta o espaçamento entre os itens para telas menores */
+    }
+
+    .cabecalho .menu li a {
+        font-size: 15px;
+        font: bold;
+        padding: 5px 10px;
+    }
+
+    .home .informacoes h1{
+        font-size: 20px;
+    }
+
+    .home .informacoes p{
+        font-size: 15px;
+    }
+
+    .home .container-foto img{
+        max-width: 200px;
+    }
+
+    .skills {
+        padding: 10px 0 40px;  /* Ajusta ainda mais o padding para telas muito pequenas */
+    }
+
+    .skills .titulo {
+        padding: 80px 0;  /* Ajusta ainda mais o padding para o título */
+        font-size: 50px;  /* Reduz ainda mais o tamanho da fonte */
+    }
+
+    .skills .cards {
+        gap: 50px;  /* Reduz ainda mais o espaço entre os ícones */
+        justify-content: center;
+    }
+
+    .skills .cards i {
+        width: 85px;  /* Reduz ainda mais a largura do ícone */
+        font-size: 80px;  /* Reduz ainda mais o tamanho da fonte do ícone */
+        text-align: center;
+    }
+
+    .certificados {
+        padding: 10px 0 40px;  /* Ajusta ainda mais o padding para telas muito pequenas */
+    }
+
+    .certificados .titulo {
+        padding: 80px 0;  /* Ajusta ainda mais o padding para o título */
+        font-size: 50px;  /* Reduz ainda mais o tamanho da fonte */
+    }
+
+    .certificado {
+        padding: 0 20px 20px;  /* Ajusta o padding */
+    }
+
+    .certificado > div {
+        height: 400px;  /* Define uma altura fixa menor para cada certificado */
+    }
+
+    .projetos{
+        padding: 10px 0 40px;
+    }
+
+    .projetos .titulo{
+        padding: 80px 0;  /* Ajusta ainda mais o padding para o título */
+        font-size: 50px;  /* Reduz ainda mais o tamanho da fonte */
+    }
+}
